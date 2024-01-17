@@ -20,11 +20,12 @@ p {
   }
 .container{
   display: flex;
+  justify-content: center;
+  align-items: center
 }
 .picture{
   margin-right:100px;
   margin-top: 50px;
   text-align: center;
   width: 120px;
-  justify-content: center;
 }
