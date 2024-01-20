@@ -39,7 +39,16 @@ nav{
 
    
   }
-
+. leftbox {
+  background-color: #a59292; 
+  padding: 20px;
+  border: 2px solid #a59292; 
+  border-radius: 10px;
+  margin-bottom: 20px; 
+  justify-content: left;
+  text-align: left;
+  text-size-adjust: 200px;
+}
   .more {
     background-color: #a59292; 
     padding: 20px;
@@ -77,4 +86,15 @@ body {
 
 .rotate {
   animation: rotation 8s infinite linear;
+}
+
+.container nav {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.container nav a {
+  margin: 0 10px; 
 }

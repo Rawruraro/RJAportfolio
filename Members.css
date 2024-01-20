@@ -4,9 +4,7 @@
 }
 .container1 {
   background-image: url('vietnam.jpg');
-  width: 400px;
-  height: 300px;
-  background-size: cover;
+  background-size: 400px 300px;;
   background-repeat: repeat;
   position: sticky;
   margin: 0; 
@@ -66,4 +64,15 @@ body {
 .container {
   position: relative; 
   text-align: center;
+}
+
+.container nav {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.container nav a {
+  margin: 0 10px; 
 }
