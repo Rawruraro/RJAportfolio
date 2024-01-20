@@ -1,5 +1,5 @@
 body {
-  background-image: url('mitchelbg.png');
+  background-image: url('camobg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,8 +8,23 @@ body {
   padding: 0; 
 }
 
+.container1 {
+  background-image: url('vietnam.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  position: sticky;
+  margin: 0; 
+  padding: 0; 
+}
+
+nav{
+  position: sticky;
+  top: 0;
+}
+
 .container {
   position: relative; 
+  text-align: center;
 }
 
 h1, p, a {
